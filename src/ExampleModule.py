@@ -2,7 +2,7 @@
 
 from ExampleModule_functions import *
 import argparse
-import humanfriendly
+# import humanfriendly
 from timeit import default_timer as timer
 beginning_of_time = timer()
 
@@ -63,4 +63,4 @@ else:
     print("Nothing shall be done.")
 
 end_of_time = timer()
-print("We are done! Wall time elapsed:", humanfriendly.format_timespan(end_of_time - beginning_of_time))
+print("We are done! Wall time elapsed:")
